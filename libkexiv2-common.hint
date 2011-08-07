@@ -1,0 +1,4 @@
+category: Graphics KDE
+external-source: libkexiv2
+sdesc: "KDE4 wrapper for the exiv2 graphics library (data)"
+ldesc: "KDE graphics suite"
