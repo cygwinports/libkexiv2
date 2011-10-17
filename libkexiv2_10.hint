@@ -1,5 +1,5 @@
 category: Graphics KDE
-requires: libkexiv2-common libexiv2_9 libgcc1 libkdecore5 libQtCore4 libQtGui4 libQtXml4 libstdc++6
+requires: libkexiv2-common libexiv2_11 libgcc1 libkdecore5 libQtCore4 libQtGui4 libQtXml4 libstdc++6
 external-source: libkexiv2
 sdesc: "KDE4 wrapper for the exiv2 graphics library (runtime)"
 ldesc: "KDE graphics suite"
