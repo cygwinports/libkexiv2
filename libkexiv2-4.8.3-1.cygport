@@ -1,7 +1,0 @@
-inherit kde4
-
-
-PKG_NAMES="libkexiv2_10 libkexiv2-common libkexiv2-devel"
-libkexiv2_10_CONTENTS="usr/bin/cygkexiv2-10.dll"
-libkexiv2_common_CONTENTS="usr/share/"
-libkexiv2_devel_CONTENTS="usr/include/ usr/lib/"

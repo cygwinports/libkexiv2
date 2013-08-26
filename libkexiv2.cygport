@@ -1,0 +1,14 @@
+inherit kde4
+
+NAME="libkexiv2"
+VERSION=4.10.5
+RELEASE=1
+CATEGORY="Libs"
+SUMMARY="KDE4 wrapper for the exiv2 graphics library"
+
+PKG_NAMES="libkexiv2_11 libkexiv2-common libkexiv2-devel"
+libkexiv2_11_REQUIRES="libkexiv2-common"
+libkexiv2_11_CONTENTS="usr/bin/cygkexiv2-11.dll"
+libkexiv2_common_CONTENTS="usr/share/"
+libkexiv2_devel_REQUIRES="libkdecore-devel libQtCore4-devel libQtGui4-devel"
+libkexiv2_devel_CONTENTS="usr/include/ usr/lib/"
